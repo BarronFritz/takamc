@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "takamc",
+	"version": "${version}",
+	"name": "Takatalvi Mod",
+	"description": "Additional Survival Features!",
+	"authors": [
+		"Takatalvi/Priox"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/takamc/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.takatalvi.takamc.TakatalviMod"
+		],
+		"fabric-datagen": [
+			"net.takatalvi.takamc.TakatalviModDataGenerator"
+		],
+		"client": [
+			"net.takatalvi.takamc.TakatalviModClient"
+		]
+	},
+	"mixins": [
+		"takamc.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.3",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

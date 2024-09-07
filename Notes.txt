@@ -1,0 +1,16 @@
+When adding a new ITEM
+    1) Add Model
+        - Add texture if required
+    2) Add to ModItems.java
+        - As a static item
+        - To a creative tab group
+    3) Add to lang files
+
+When adding a new BLOCK
+    1) Add Model
+        - Add texture if required
+    2) Add Blockstates
+    3) Add to ModBlocks.java
+        - As a static block
+        - To a creative tab group
+    4) Add block as an item using steps above for ITEM

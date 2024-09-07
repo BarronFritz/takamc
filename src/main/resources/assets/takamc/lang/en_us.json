@@ -3,5 +3,7 @@
   "item.takamc.raw_pink_garnet": "Raw Pink Garnet",
 
   "block.takamc.pink_garnet_block": "Block of Pink Garnet",
-  "block.takamc.raw_pink_garnet_block": "Block of Raw Pink Garnet"
+  "block.takamc.raw_pink_garnet_block": "Block of Raw Pink Garnet",
+  "itemgroup.takamc.pink_garnet_items": "Pink Garnet Items",
+  "itemgroup.takamc.pink_garnet_blocks": "Pink Garnet Blocks"
 }

@@ -1,11 +1,9 @@
 package net.takatalvi.takamc.block;
 
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
@@ -29,10 +27,10 @@ public class ModBlocks {
     public static void registerModBlocks() {
         TakatalviMod.LOGGER.info("Registering Mod Blocks for " + TakatalviMod.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-            entries.add(ModBlocks.PINK_GARNET_BLOCK);
-            entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
-        });
+//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
+//            entries.add(ModBlocks.PINK_GARNET_BLOCK);
+//            entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
+//        });
     }
 //    HELPER FUNCTIONS
     private static Block registerBlock(String name, Block block) {
